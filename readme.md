@@ -44,6 +44,11 @@ EMR : Anlytics
 EC2 and you can install your own machines :- (Administrion,)
 XaaS 
 ----------------------------------------------------------------------------------------------------------------
+Foll0wing Permission 
+S3FullAccess
+CloudWatchFullAccess 
+DynamoDBFullAccess
+DocDBFullAccess 
 
 
 
