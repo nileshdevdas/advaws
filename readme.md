@@ -52,6 +52,23 @@ DocDBFullAccess
 
 
 
+The Lambda Code :- 
+exports.handler = async (event) => {
+    const responseData = {
+        empid : 1000,
+        empname : "nilesh"
+    } 
+    
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify(responseData),
+        
+    };
+    return response;
+};
+
+
+
 
 
 
