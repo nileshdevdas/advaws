@@ -1,7 +1,18 @@
 <h1>
-    Welcome to AWS Hosting S3 
+    Welcome to AWS Hosting S3
 </h1>
+<div id="result">
+
+</div>
 <script>
-    //var req = new XMLHttpRequest()
-    alert("we are here")  
+    var req = new XMLHttpRequest();
+    req.open('GET',"https://itptf73at2.execute-api.us-east-1.amazonaws.com/uat", true);
+    req.onreadystatechange = function () {
+        if (req.readyState == 4 && req.status == 200){
+            console.log(req.responseText);  
+            document.getElementById("result").innerHTML = req.responseText
+        }
+    };
+    req.send()
+    alert("we are here")
 </script>
