@@ -68,6 +68,15 @@ exports.handler = async (event) => {
 };
 
 
+## to invoke the lambda from the command prompt 
+aws lambda  invoke  --function-name <yourfunctiom>  <outfile>
+
+
+
+
+
+
+
 
 
 
