@@ -72,6 +72,42 @@ exports.handler = async (event) => {
 aws lambda  invoke  --function-name <yourfunctiom>  <outfile>
 
 
+REST API 
+GET 
+PUT 
+POST 
+DELETE
+HEAD 
+OPTIONS 
+
+Depending up what you wish to do you will be doing the rest api activity : 
+PUT -update 
+GET -Fetch the information 
+POST -> Create 
+HEAD => Check 
+DELETE -> Deletion 
+
+Resource is like a url 
+http://xxxxxxx/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

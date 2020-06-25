@@ -1,0 +1,23 @@
+{
+  "name": "advaws",
+  "version": "1.0.0",
+  "description": "--readme--\r Day-1\r How use IAM \r User\r Roles \r Polcies \r Api Keys \r How the Groups \r How the Assignments",
+  "main": "dynamowh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nileshdevdas/advaws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nileshdevdas/advaws/issues"
+  },
+  "homepage": "https://github.com/nileshdevdas/advaws#readme",
+  "dependencies": {
+    "aws-sdk": "^2.704.0"
+  }
+}
