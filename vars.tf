@@ -1,0 +1,1 @@
+variable "script_version" {}

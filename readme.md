@@ -171,6 +171,35 @@ the promient and required by the parties in the market is th MQTT (Messaging and
 Low Level messaging generally Support ESPIOT's or   
 
 
+## Terraform ## 
+What is terraf form 
+Infrastructure as Code :- 
+a) Ansible 
+b) Chef 
+c) puppet 
+d) saltstack 
+Terraform is the product from HashiCorp : Hashimoto
+Its Multi Cloud Provider for the IaaC 
+Google 
+AWS 
+Azure 
+VMWARE 
+
+The beaut of terraform 
+1. State management (it manages and stores you state in a local repository)
+2. Plugin driven (100 of cloud provider)
+3. Light and Has Connected repository 
+4. Plugin and Module Registry --> EC2 with complex configuration -> 
+                    Ready Made module + Parameters --> 
+
+
+
+
+
+
+
+
+
 
 
 
