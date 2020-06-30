@@ -247,6 +247,18 @@ a pod to the kubernetes in the cloud
 6. select your vpc 
 7. select you subnets 
 8. security group 
+9. i have create cluter 
+10. aws -version 
+11. aws eks --region us-east-1 update-kubeconfig  --name democluster 
+12  kubectl get pods    
+                it should it 
+
+------------------------------------------------------------------------------------------------
+You have to find write a yml service file from :- 
+
+
+
+
 
 
 
