@@ -216,15 +216,37 @@ The beaut of terraform
 
 
 
+1. Kubernetes ? 
+2. EKS (Elastic Kubernetes service)
+3. kubectl (Control plane client)
+4. ECS / EKS 
+-----------------------------------------------
+Docker is meant to be a build ship and run implementation 
+You code what you build --> Image -> Ship the same image and What SHip is 
+what you run on the production 
+
+Image --> DOcker Container --> Pod --> Service --> Scalable -> Elastic 
+1. Service --> Pods ---> Image-> 
+2. Docker is just backend engine 
+3. the Docker is just the runtime 
+4. Kubernetes it the heart of the control (Kubernetes only controls)
 
 
 
 
+Steps for creating a kubernetes cluster and apply and yml file and running and deploying 
+a pod to the kubernetes in the cloud 
+1.  login to you aws account 
+2.  Got the EKS Service 
+3.  Create a cluster and when you ccreate a cluster add the required configuration 
+    only requirement is the cluster name that is required to create cluster 
+4. on the next page additional details to be added 
+    A Trusted role for the cluster that is manage services on the cluster behalf 
 
-
-
-
-
+5. Select the role 
+6. select your vpc 
+7. select you subnets 
+8. security group 
 
 
 

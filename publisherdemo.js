@@ -8,3 +8,9 @@ broker.on('connect', () => {
     console.log("Connected Successfull.........")
     broker.publish('nilesh.news.events', 'welcome to aws mqtt')
 });
+
+
+
+
+
+
