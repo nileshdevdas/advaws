@@ -249,12 +249,25 @@ a pod to the kubernetes in the cloud
 8. security group 
 9. i have create cluter 
 10. aws -version 
-11. aws eks --region us-east-1 update-kubeconfig  --name democluster 
+11. aws eks --region ap-south-1 update-kubeconfig  --name my-cluster 
 12  kubectl get pods    
                 it should it 
 
+aws eks --region us-east1 update-kubeconfig  --name clusternd 
 ------------------------------------------------------------------------------------------------
 You have to find write a yml service file from :- 
+
+# this will deploy the pods 
+kubectl create -f d:\nginx.yml
+
+# i need load balancer : ClusterIP,NodePort,Deployments 
+kubectl expose deployment <yourdeployment> --type=LoadBalancer  --name-service=nginxlb
+
+
+
+
+
+
 
 
 
