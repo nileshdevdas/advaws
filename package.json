@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/nileshdevdas/advaws#readme",
   "dependencies": {
-    "aws-sdk": "^2.704.0"
+    "aws-sdk": "^2.704.0",
+    "redis": "^3.0.2"
   }
 }

@@ -253,7 +253,7 @@ a pod to the kubernetes in the cloud
 12  kubectl get pods    
                 it should it 
 
-aws eks --region us-east1 update-kubeconfig  --name clusternd 
+aws eks --region ap-south-1 update-kubeconfig  --name cluster001 
 ------------------------------------------------------------------------------------------------
 You have to find write a yml service file from :- 
 
@@ -262,6 +262,48 @@ kubectl create -f d:\nginx.yml
 
 # i need load balancer : ClusterIP,NodePort,Deployments 
 kubectl expose deployment <yourdeployment> --type=LoadBalancer  --name-service=nginxlb
+kubectl expose deployment nginx --typeLoadBalancer --name=service-lb1 -n web
+
+# eksctl is commandling cluster creation cli for aws eks 
+eksctl create cluster  --name mycluster --version 1.16 --region us-east-1 --asg 
+
+ekctl create nodegroup --cluster <yourcluster> --node-zones region-codea --name regioncodea --asg-access --nodes-min 1 --nodes 2 --nodex-max 2 --managed 
+
+
+Docker installed machine 
+you can create your ownimage
+
+
+
+hdfs ds -ls / 
+hdfs ds -put  -l /test.xml  /test 
+hdfs ds -cat  -l  / **** 
+
+--------------------------------------------------------------------------------
+Cache :- 
+Cache contains  Cluster 
+
+
+
+
+1. Seccurity is the network layer ip tables :
+    allow / deny the network  specific ports 
+    block 22  / allow 80 inbound and out bound rules 
+
+    Security Group 
+
+2.  Some one send me a large size rquest ? 
+    some one continoulsy from a ip address is trying to enter while i dont want 
+        that ip address 
+
+3.  time base restriction 
+4.  policy driven rtestrictions 
+
+
+
+
+
+
 
 
 
